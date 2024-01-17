@@ -43,7 +43,7 @@ const Navbar = () => {
                 <div className="flex justify-between items-center text-base gap-8">
                     <Link to="/" className="text-2xl font-bold text-blue-700 flex items-center gap-2"><FaBlog className="inline-block"/>Books</Link>
 
-                    <ul className="md:flex space-x-12 hidden navitems">
+                    <ul className=" hidden md:flex space-x-12 navitems">
 
                         {
                             navItems.map(({ link, path }) => <Link key={link} to={path}  className="link block text-base cursor-pointer uppercase text-black hover:text-blue-700">
